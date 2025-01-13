@@ -8,5 +8,3 @@ A template for creating go CLI tools. Includes actions pipeline for releases.
 ----
 mike init go-cli <project-name>
 ----
-
-... and that is it.
