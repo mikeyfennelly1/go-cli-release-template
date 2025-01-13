@@ -28,7 +28,7 @@ jobs:
         run: go install github.com/goreleaser/goreleaser@latest
       - name: Run GoReleaser
         run: |
-          cd ./mpod
+          cd ./src
           goreleaser release --clean
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
